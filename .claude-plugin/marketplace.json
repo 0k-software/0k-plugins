@@ -1,12 +1,12 @@
 {
   "name": "0k-software",
-  "version": "0.1.0",
   "owner": {
     "name": "0k-software"
   },
   "plugins": [
     {
       "name": "kata",
+      "version": "0.1.0",
       "source": {
         "source": "github",
         "repo": "0k-software/kata"
