@@ -25,7 +25,7 @@ creation, plan-driven implementation, and more.
 **Install:**
 
 ```
-/plugin install kata@0k-software
+/plugin install kata@0k-plugins
 ```
 
 Once installed, every skill is available as `/kata:<skill-name>` (for example
@@ -43,7 +43,7 @@ auto-enable a plugin for everyone who opens the project:
 ```json
 {
   "extraKnownMarketplaces": {
-    "0k-software": {
+    "0k-plugins": {
       "source": {
         "source": "github",
         "repo": "0k-software/0k-plugins"
@@ -51,7 +51,7 @@ auto-enable a plugin for everyone who opens the project:
     }
   },
   "enabledPlugins": {
-    "kata@0k-software": true
+    "kata@0k-plugins": true
   }
 }
 ```
